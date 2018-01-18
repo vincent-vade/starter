@@ -1,0 +1,90 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "settings": {
+    "import/resolver": "webpack"
+  },
+  "rules": {
+    "valid-jsdoc": 2,
+    "no-undef": 0,
+    "id-length": 0,
+    "no-multi-spaces": 0,
+    "react/forbid-prop-types": 0,
+    "react/no-array-index-key": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/jsx-no-duplicate-props": 2,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "react/prefer-stateless-function":0,
+    "no-underscore-dangle":0,
+    "react/sort-comp":0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "brace-style": [
+      "error",
+      "stroustrup",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      "nofunc"
+    ],
+    "quote-props": 0,
+    "max-len": 0,
+    "object-shorthand": 0,
+    "prefer-template": 0,
+    "prefer-arrow-callback": 0,
+    "no-case-declarations": 0,
+    "arrow-body-style": 0,
+    "consistent-return": 0,
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "react/jsx-closing-bracket-location": 0,
+    "react/jsx-no-bind": 0,
+    "no-useless-constructor": 0,
+    "no-return-assign": 0,
+    "class-methods-use-this": 1,
+    "no-new":0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "spotify",
+  "version": "0.0.1",
+  "description": "test spotify with react redux",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack",
+    "dev-server": "webpack-dev-server --port 9966 --hot",
+    "watch": "webpack --watch"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.1.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
